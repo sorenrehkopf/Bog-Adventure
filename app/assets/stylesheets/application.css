@@ -13,3 +13,60 @@
  *= require_tree .
  *= require_self
  */
+
+body{
+	background-image: url(http://www.filmswap.net/photo/new-zealand/06%20LOTR%20Dead%20Marshes.jpg);
+	background-position: absolute;
+	background-size: 1500px;
+	color: white;
+	text-align: center;
+}
+h1{
+	font-family: slackey;
+	color: rgb(100,210,100);
+}
+h2{
+	font-family: Freckle Face;
+		color: rgb(100,210,100);
+}
+h3{
+	font-family: indie flower;
+		color: rgb(100,210,100);
+}
+p{
+	font-family: indie flower;
+	color: rgb(250,250,250);
+}
+li{
+	color:white;
+}
+{
+	color:white;
+}
+#carousel-example-generic{
+	background-position: center;
+	height:500px;
+}
+
+#carousel-example-generic img{
+	max-height:450px;
+	padding:0% 0% 0% 15%;
+}
+.navbar{
+	font-family:freckle face;
+	color:white;
+	background-color: rgba(150,150,150, .5);
+}
+.navbar h1{
+	margin:10px 15px 10px 15px;
+}
+
+.mainTextArea{
+	background-color: rgba(150,150,150, .5);
+	border-radius:10px;
+	height:400px;
+}
+.well{
+	background-color: rgba(100,100,100, .5);
+/*	margin:20% auto;*/
+}
