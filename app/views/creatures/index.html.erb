@@ -10,7 +10,11 @@
 		  <%= link_to "", creature, method: :delete, class: 'btn btn-danger btn-xs glyphicon glyphicon-trash pull-right' %>
 		  <%= link_to "", edit_creature_path(creature), class: 'btn btn-primary btn-xs glyphicon glyphicon-pencil pull-right' %>
 		  <%= link_to "See the creature closer!", creature, class: 'pull-right' %>
-
+		  <p>
+	  <% creature.tags.each do |tag| %>
+	    <%= link_to "##{tag.name}", tag %>
+	  <% end %>
+	  </p>
 		</div>
 <% end %>
 </div>

@@ -3,5 +3,6 @@
 <%= bootstrap_form_for @creature do |f| %>
 <%= f.text_area :name %>
 <%= f.text_field :description %>
+<%= f.collection_check_boxes :tag_ids, @tags, :id, :name %>
 <%= f.primary %>
 <% end %>
